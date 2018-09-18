@@ -145,14 +145,14 @@ function moveDodger(e) {
   const code = e.which
   
   if (code === LEFT_ARROW){
-    e.preventDefault()
-    e.stopPropagation()
-    moveDodgerLeft()
+    e.preventDefault();
+    e.stopPropagation();
+    moveDodgerLeft();
   }
   else if (code === RIGHT_ARROW){
-    e.preventDefault()
-    e.stopPropagation()
-    moveDodgerRight()
+    e.preventDefault();
+    e.stopPropagation();
+    moveDodgerRight();
   }
 }
 
