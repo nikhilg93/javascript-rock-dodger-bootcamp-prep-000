@@ -180,7 +180,7 @@ function moveDodgerRight() {
    */
   
   const left = positionToInteger(DODGER.style.left)
-  if (left < 180){
+  if (left < GAME_WIDTH - 40){
     DODGER.style.left = `{left + 4}px`
     window.requestAnimationFrame(moveDodgerRight)
     }
