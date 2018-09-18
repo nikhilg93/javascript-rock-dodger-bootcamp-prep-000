@@ -125,7 +125,7 @@ function endGame() {
     rock.remove()
   });
   
-  document.removeEventListner('keydown', moveDodger)
+  document.removeEventListener('keydown', moveDodger)
   START.innerHTML = 'Play Again?'
   START.style.display = 'inline'
   
